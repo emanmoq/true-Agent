@@ -633,7 +633,8 @@ animation :swing 1s }
     left: -40px;
 }
 .elite-slider {
-    padding:50px 0
+    padding:50px 0;
+    padding-top:0
 }
 .elite-slider.owl-carousel button.owl-dot {
     width: 9px;
