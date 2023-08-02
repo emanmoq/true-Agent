@@ -137,6 +137,7 @@ li {
     font-family: lineicons;
     align-self: center;
     margin-left: 10px;
+    font-size: 12px;
 }
 
 .btn:focus {
@@ -631,7 +632,7 @@ animation :swing 1s }
     left: -40px;
 }
 .elite-slider {
-    padding:70px 0
+    padding:50px 0
 }
 .elite-slider.owl-carousel button.owl-dot {
     width: 9px;
@@ -668,9 +669,6 @@ animation :swing 1s }
 
 }
 
-.ourPartner {
-    padding-top: 50px
-}
 
 .ourPartner .sectionTitle {
     font-size: 1.5em;
@@ -1097,7 +1095,7 @@ button:focus {
     align-self: center;
     color: white;
     margin-right: 25px;
-    font-size: 1em;
+    font-size: .875em;
     font-weight: 500;
 }
 
@@ -1134,7 +1132,7 @@ button:focus {
 }
 
 .footerLocation p {
-    font-size: 1em;
+    font-size: .875em;
     margin-bottom: 15px;
 }
 
