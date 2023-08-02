@@ -1,28 +1,83 @@
 jQuery(function ($) {
   //declare slider (owl-carousel slider)
-  $('.partnersSlider').owlCarousel({
+  $('.elite-slider').owlCarousel({
     autoplay: true,
     loop: false,
-    margin: 15,
-    dots: false,
-    navText: ["<i class='lni lni-arrow-left'></i>", "<i class='lni lni-arrow-right'></i>"],
+    margin: 40,
+    dots: true,
 
     responsive: {
       0: {
-        items: 2,
+        items: 1,
 
       },
       600: {
-        items: 4,
+        items: 2,
       },
       1000: {
-        items: 6,
+        items: 3,
 
       }
 
 
     }
   });
+  $('.partner-Slider').owlCarousel({
+    autoplay: true,
+    loop: false,
+    margin: 40,
+    dots: false,
+    nav:false,
+
+    responsive: {
+      0: {
+        items: 1,
+
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 5,
+
+      }
+
+
+    }
+  });
+  $('.rating-sec-slider').owlCarousel({
+    autoplay: true,
+    loop: false,
+    margin: 15,
+    dots: false,
+    nav:true,
+
+    responsive: {
+      0: {
+        items: 1,
+
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 2,
+      }
+
+
+    }
+  });
+  wow = new WOW(
+    {
+      animateClass: 'animated',
+      offset:       100,
+      callback:     function(box) {
+        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+      }
+    }
+  );
+  wow.init();
+
   // back to top btn open
   // ===== Scroll to Top ==== 
   jQuery(window).scroll(function () {
