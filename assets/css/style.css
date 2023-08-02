@@ -491,7 +491,7 @@ animation :swing 1s }
 .Elite-Img {
     position: relative;
     width: 100%;
-    height: 350px;
+    height: 300px;
     border-radius: 12px;
     overflow: hidden;
     z-index: 1;
@@ -535,7 +535,7 @@ animation :swing 1s }
 }
 
 .exp-text {
-    font-size: 1em;
+    font-size: .875em;
     color: black;
     display: inline-flex;
 
@@ -561,7 +561,7 @@ animation :swing 1s }
 }
 
 .Elite-member-details h6 {
-    font-size: 1.2em;
+    font-size: 1.125em;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -574,7 +574,7 @@ animation :swing 1s }
 }
 
 .reviewText {
-    font-size: 1em;
+    font-size: .875em;
     align-self: center;
     display: flex;
 
@@ -583,6 +583,7 @@ animation :swing 1s }
 
 .rev-num {
     font-weight: 300;
+    font-size: .875em;
     align-self: center;
     margin-right: 10px;
     margin-left: 5px;
@@ -599,7 +600,7 @@ animation :swing 1s }
 }
 
 .memLoC span {
-    font-size: 1em;
+    font-size: .875em;
     margin-left: 10px;
 }
 
@@ -610,7 +611,7 @@ animation :swing 1s }
 
 .member-details-header i {
     color: #969696;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .elite-slider .owl-dots {
@@ -665,7 +666,7 @@ animation :swing 1s }
 .crownBox i {
     align-self: center;
     color: #FFB743;
-    font-size: 24px;
+    font-size: 20px;
 
 }
 
@@ -702,7 +703,7 @@ animation :swing 1s }
 }
 
 .famousAgent .sectionTitle {
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-bottom: 35px;
 }
 
@@ -755,7 +756,7 @@ animation :swing 1s }
 }
 
 .ReadMoreLink {
-    font-size: 1em;
+    font-size: .875em;
     color: #244094;
     align-self: center;
 }
@@ -780,14 +781,14 @@ animation :swing 1s }
 .member-social li a {
     align-self: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     transition: all .5s;
 
 }
 
 .member-social li:last-child a {
     color: #0E0E0E;
-    font-size: 1em;
+    font-size: .875em;
 }
 
 .member-social li:last-child:hover a {
@@ -1008,13 +1009,13 @@ button:focus {
 
 .subscribeSec {
     padding: 100px 0;
-    padding-top: 200px
+padding-top:150px
 }
 
 .personImg {
     position: absolute;
     right: 10px;
-    width: 28%;
+    width: 25%;
     z-index: 3;
     bottom: 0;
 }
@@ -1028,7 +1029,7 @@ button:focus {
 }
 
 .subscribe-box h3 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -1101,6 +1102,9 @@ button:focus {
 
 .footerSocial ul li a {
     color: white;
+}
+.footerSocial li:hover{
+   animation:  wobble 1s;
 }
 
 .copyright {
