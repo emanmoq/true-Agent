@@ -27,7 +27,7 @@ jQuery(function ($) {
     loop: false,
     margin: 40,
     dots: false,
-    nav:false,
+    nav: false,
 
     responsive: {
       0: {
@@ -45,12 +45,52 @@ jQuery(function ($) {
 
     }
   });
+
+  $('.select').selectric({
+    disableOnMobile: false,
+    nativeOnMobile: false
+  }
+  );
+  $('.selectric .button').text('');
+
+  $('.selectric .button').append('<i class="lni lni-chevron-down"></i>');
+  $('.about-partner-Slider').owlCarousel({
+    autoplay: true,
+    loop: false,
+    margin: 40,
+    dots: false,
+    nav: true,
+    navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+    responsive: {
+      0: {
+        items: 1,
+
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 4,
+
+      }
+    }
+  });
+  $('.about-slider').owlCarousel({
+    autoplay: true,
+    loop: false,
+    dots: false,
+    nav: true,
+    items: 1,
+    navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+
+  });
   $('.rating-sec-slider').owlCarousel({
     autoplay: true,
     loop: false,
     margin: 15,
     dots: false,
-    nav:true,
+    nav: true,
+    navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
 
     responsive: {
       0: {
@@ -70,8 +110,8 @@ jQuery(function ($) {
   wow = new WOW(
     {
       animateClass: 'animated',
-      offset:       100,
-      callback:     function(box) {
+      offset: 100,
+      callback: function (box) {
         console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
       }
     }
