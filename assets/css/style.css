@@ -2052,7 +2052,7 @@ button:focus {
     color: #707070;
     left: 26px;
     padding: 2px;
-    top: 5px;
+    top: 10px;
     transition: all .5s;
     margin: 0;
 }
@@ -2076,29 +2076,64 @@ button:focus {
     text-align: center;
 }
 
-.profile-subscribe-box h5{
+.profile-subscribe-box h5 {
     font-size: 1.7em;
     margin-bottom: 25px;
     font-weight: bold;
 }
-.profile-subscribe-box p{
+
+.profile-subscribe-box p {
     font-size: 1.125em;
     margin-bottom: 30px;
 }
-.subscribe-profile{
+
+.subscribe-profile {
     position: relative;
 }
-.subscribe-profile .form-control{
+
+.subscribe-profile .form-control {
     width: 100%;
     height: 60px;
     background-color: white;
     border-radius: 40px;
 }
-.subscribe-profile .HeroSearchtn{
+
+.subscribe-profile .HeroSearchtn {
     width: 130px;
     height: 45px;
     border-radius: 40px;
-    top:7px;
+    top: 7px;
     right: 7px;
     position: absolute;
+}
+
+.save-pass-btn {
+    width: 100%;
+}
+
+.showHidePass {
+    position: absolute;
+    top: 23px;
+    right: 13px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.changepassInstruct span{
+    font-size: 1.125em;
+    margin-bottom: 10px;
+    display: block;
+}
+.changepassInstruct h6{
+    font-size: 1.125em;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.changepassInstruct li{
+    list-style: decimal;
+    font-size: 1.125em;
+
+}
+.changepassInstruct ul{
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
