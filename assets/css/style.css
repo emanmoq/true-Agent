@@ -1248,7 +1248,18 @@ button:focus {
     top: 15px !important
 }
 
-.notifysec .dropdown-menu:before {
+.profile-sec .dropdown-menu {
+    border-radius: 14px;
+    box-shadow: 0 3px 6px rgba(174, 217, 250, .16);
+    min-width: 350px;
+    left: auto !important;
+    right: -13 !important;
+    border: 1px solid #BCBCBC;
+    top: 15px !important
+}
+
+.notifysec .dropdown-menu:before,
+.profile-sec .dropdown-menu:before {
     content: "";
     position: absolute;
     width: 0;
@@ -1261,7 +1272,8 @@ button:focus {
 
 }
 
-.notifysec .dropdown-menu:after {
+.notifysec .dropdown-menu:after,
+.profile-sec .dropdown-menu:after {
     position: absolute;
     content: "";
     width: 0;
@@ -1654,6 +1666,12 @@ button:focus {
     align-self: end;
 }
 
+.small-about-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
 .exclusive-content {
     align-self: center;
 }
@@ -1742,12 +1760,13 @@ button:focus {
     margin-right: 10px;
 }
 
-.filterAgent .form-control,.filterAgent .selectric-wrapper {
+.filterAgent .form-control,
+.selectric-wrapper {
     height: 45px;
     border-radius: 33px;
     padding: 0 10px;
-    border:1px solid #BFBFBF;
-    color:#0E0E0E;
+    border: 1px solid #BFBFBF;
+    color: #0E0E0E;
 }
 
 .agent-srarh-btn {
@@ -1761,7 +1780,7 @@ button:focus {
     border-radius: 35px;
     border: 1px solid #BFBFBF;
     overflow: hidden;
-    width:180px
+    width: 180px
 }
 
 .agent-map .nav-item {
@@ -1786,24 +1805,300 @@ button:focus {
 .agent-map .nav-link.active {
     background-color: #244094;
     color: white;
-    font-weight:400;
+    font-weight: 400;
 }
-.selectric .button{
+
+.selectric .button {
     font-size: 14px;
-    color:black;
+    color: black;
     height: auto;
     padding: 0;
-    align-self: center;position: relative;
+    align-self: center;
+    position: relative;
     width: auto;
-    margin-left: 10px;
+    margin-right: 10px;
 }
-.selectric{
+
+.selectric {
     display: flex;
     height: 100%;
 }
-.selectric-items li.selected{
-    color:#0E0E0E
+
+.selectric-items li.selected {
+    color: #0E0E0E
 }
-.selectric-items li:hover{
-    color:#244094
+
+.selectric-items li:hover {
+    color: #244094
+}
+
+.agent-map .nav-link i {
+    font-size: 15px;
+}
+
+#Map {
+    position: relative;
+}
+
+.googlemap {
+    position: absolute;
+    width: 119%;
+    left: -27%;
+}
+
+.agent-list-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.agent-list-filter .selectric-wrapper {
+    height: 45px;
+    padding: 0 5px;
+    width: 180px;
+}
+
+.agent-list-filter form {
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+
+}
+
+.agent-list-filter form span {
+    margin-right: 10px;
+    font-size: 1.125em;
+    font-weight: 400;
+}
+
+.agent-list-filter span {
+    font-size: 1.3em;
+    font-weight: 500;
+    align-self: center;
+}
+
+.agent-list .MostAgntBox {
+    display: flex;
+    padding: 15px;
+    height: 200px;
+}
+
+.agent-list .MostAgntBox .famousBoxImg {
+    height: 100%;
+    width: 35%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.googlemap object {
+    border-radius: 20px;
+}
+
+.profile-dropdown .profileImg {
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    margin-bottom: 12px;
+}
+
+.profile-menu-heder h4 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.profile-menu-heder span {
+    font-size: 15px;
+
+}
+
+.profile-menu-heder {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.profile-dropdown {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.profile-menu-links li {
+    padding: 15px;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.profile-menu-links li a {
+    color: #323232;
+    transition: all .3s;
+
+}
+
+.profile-menu-links li:hover {
+    background-color: #244094;
+    transition: all .3s;
+
+}
+
+.profile-menu-links li:hover a {
+    color: white;
+    transition: all .3s;
+
+}
+
+.profile-menu-links li.signOut-profile {
+
+    padding-top: 15px;
+    border-top: 1px solid #DFDFDF;
+    margin-bottom: 0;
+}
+
+.profile-menu-links li.signOut-profile a {
+    color: #DA1E37
+}
+
+.Edit-profile-Box {
+    padding: 50px 30px;
+    border-radius: 35px;
+    border: 1px solid #DFDFDF
+}
+
+.profilepage {
+    padding: 50px 0;
+    padding-bottom: 100px;
+}
+
+.profilepage .innerHoneTitle h4 {
+    font-size: 1.5em;
+}
+
+.uploadImgSec {
+    margin-bottom: 35px;
+}
+
+.Edit-profile-Box .form-control {
+    border: 1px solid #D3D3D3;
+    height: 50px;
+    border-radius: 36px
+}
+
+.uploadImgSec input {
+    position: absolute;
+    opacity: 0;
+}
+
+.uploadImgSec {
+    display: flex;
+}
+
+.uploadImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.uploadImg img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.uploadImg:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+}
+
+.uploadCameraIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    z-index: 2;
+    color: white;
+    justify-content: center;
+}
+
+.uploadCameraIcon i {
+    align-self: center;
+    color: white;
+    font-size: 14px;
+}
+
+.uploadImgSec span {
+    margin-left: 15px;
+    font-size: 1.125em;
+    font-weight: 500;
+    text-decoration: underline;
+    align-self: center;
+    display: block;
+}
+
+.Edit-profile-Box .form-group {
+    position: relative;
+}
+
+.Edit-profile-Box .form-group label {
+    position: absolute;
+    background-color: white;
+    font-size: 1.125em;
+    color: #707070;
+    left: 26px;
+    padding: 2px;
+    top: 5px;
+    transition: all .5s;
+    margin: 0;
+}
+
+.Edit-profile-Box input {
+    color: black;
+    font-size: 16px;
+}
+
+.saveBtn {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+}
+
+.profile-subscribe-box {
+    margin-top: 100px;
+    border-radius: 22px;
+    background-color: #F8F8FA;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.profile-subscribe-box h5{
+    font-size: 1.7em;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.profile-subscribe-box p{
+    font-size: 1.125em;
+    margin-bottom: 30px;
+}
+.subscribe-profile{
+    position: relative;
+}
+.subscribe-profile .form-control{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-radius: 40px;
+}
+.subscribe-profile .HeroSearchtn{
+    width: 130px;
+    height: 45px;
+    border-radius: 40px;
+    top:7px;
+    right: 7px;
+    position: absolute;
 }

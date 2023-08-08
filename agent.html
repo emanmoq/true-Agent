@@ -121,9 +121,41 @@
                             </div>
                         </div>
                         <div class="profile-sec dropdown ">
-                            <a href="javaScript:;" class="profileImg">
+                            <a href="javaScript:;" class="profileImg dropdown-toggle" data-toggle="dropdown">
                                 <img src="assets/images/person.png" alt="">
                             </a>
+                            <div class="dropdown-menu profile-dropdown">
+                                <div class="profile-menu-heder">
+                                    <a href="javaScript:;" class="profileImg dropdown-toggle" data-toggle="dropdown">
+                                        <img src="assets/images/person.png" alt="">
+                                    </a>
+                                    <h4>
+                                        Ali Ahmed Qerte
+                                    </h4>
+                                    <span>@Aliah@gmail.com</span>
+                                </div>
+                                <ul class="profile-menu-links">
+                                    <li>
+                                        <a href="javaScript:;">Edit Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="javaScript:;">Appointment Request</a>
+                                    </li>
+                    
+                                    <li>
+                                        <a href="javaScript:;">Change password</a>
+                                    </li>
+                                    <li>
+                                        <a href="javaScript:;">Change Phone</a>
+                                    </li>
+                                    <li>
+                                        <a href="javaScript:;">Delete Account</a>
+                                    </li>
+                                    <li class="signOut-profile">
+                                        <a href="javaScript:;">Sign Out</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -184,201 +216,447 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="Map-tab" data-toggle="tab" href="#Map" role="tab"
-                                    aria-controls="Map" aria-selected="false"><i class="fa-solid fa-location-dot"></i>
+                                    aria-controls="Map" aria-selected="false"><i class="lni lni-map-marker"></i>
                                     Map</a>
                             </li>
                         </ul>
 
                     </form>
-                </div>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="List" role="tabpanel" aria-labelledby="List-tab">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="MostAgntBox">
-                                    <div class="famousBoxImg">
-                                        <img src="assets/images/famous1.png" alt="">
-                                    </div>
-                                    <div class="Elite-member-details famous-member-details">
-                                        <div class="member-details-header">
-                                            <h6>Ahmad Ahmad</h6>
-                                            <a href="javaScript:;" class="HeartElite"> <i
-                                                    class="fa-regular fa-heart"></i></a>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="List" role="tabpanel" aria-labelledby="List-tab">
+                            <div class="agent-list-filter">
+                                <span>240 Results </span>
+                                <form action="" class="agent-list-filter-form">
+                                    <span>Sort By</span>
+                                    <select name="" id="" class="select">
+                                        <option value="">latest activity</option>
+                                        <option value="">Newest activity</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="MostAgntBox">
+                                        <div class="famousBoxImg">
+                                            <img src="assets/images/famous1.png" alt="">
                                         </div>
-                                        <div class="Elite-memb-rating-exp">
-                                            <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p> <span
-                                                class="rev-num">(20
-                                                Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                        <div class="Elite-member-details famous-member-details">
+                                            <div class="member-details-header">
+                                                <h6>Ahmad Ahmad</h6>
+                                                <a href="javaScript:;" class="HeartElite"> <i
+                                                        class="fa-regular fa-heart"></i></a>
+                                            </div>
+                                            <div class="Elite-memb-rating-exp">
+                                                <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p> <span
+                                                    class="rev-num">(20
+                                                    Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                            </div>
+                                            <div class="memLoC">
+                                                <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
+                                                    Dhabi...</span>
+                                            </div>
                                         </div>
-                                        <div class="memLoC">
-                                            <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
-                                                Dhabi...</span>
-                                        </div>
-                                    </div>
-                                    <div class="famous-box-footer">
-                                        <ul class="member-social">
-                                            <li class="whatsLink">
-                                                <a href="javaScript:"><i class="fa-brands fa-whatsapp"></i></a>
-                                            </li>
-                                            <li class="linkedLink">
-                                                <a href="javaScript:;"><i class="fa-brands fa-linkedin-in"></i>
+                                        <div class="famous-box-footer">
+                                            <ul class="member-social">
+                                                <li class="whatsLink">
+                                                    <a href="javaScript:"><i class="fa-brands fa-whatsapp"></i></a>
+                                                </li>
+                                                <li class="linkedLink">
+                                                    <a href="javaScript:;"><i class="fa-brands fa-linkedin-in"></i>
 
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javaScript:;">+2</a>
-                                            </li>
-                                        </ul>
-                                        <a href="javaScript:;" class="ReadMoreLink">Read More <i
-                                                class="lni lni-chevron-right"></i></a>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javaScript:;">+2</a>
+                                                </li>
+                                            </ul>
+                                            <a href="javaScript:;" class="ReadMoreLink">Read More <i
+                                                    class="lni lni-chevron-right"></i></a>
+                                        </div>
+
                                     </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="MostAgntBox">
+                                        <div class="famousBoxImg">
+                                            <img src="assets/images/famous2.png" alt="">
+                                        </div>
+                                        <div class="Elite-member-details famous-member-details">
+                                            <div class="member-details-header">
+                                                <h6>Ahmad Ahmad</h6>
+                                                <a href="javaScript:;" class="HeartElite"> <i
+                                                        class="fa-regular fa-heart"></i></a>
+                                            </div>
+                                            <div class="Elite-memb-rating-exp">
+                                                <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p> <span
+                                                    class="rev-num">(20
+                                                    Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                            </div>
+                                            <div class="memLoC">
+                                                <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
+                                                    Dhabi...</span>
+                                            </div>
+                                        </div>
+                                        <div class="famous-box-footer">
+                                            <ul class="member-social">
+                                                <li class="whatsLink">
+                                                    <a href="javaScript:"><i class="fa-brands fa-whatsapp"></i></a>
+                                                </li>
+                                                <li class="linkedLink">
+                                                    <a href="javaScript:;"><i class="fa-brands fa-linkedin-in"></i>
+
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javaScript:;">+2</a>
+                                                </li>
+                                            </ul>
+                                            <a href="javaScript:;" class="ReadMoreLink">Read More <i
+                                                    class="lni lni-chevron-right"></i></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="MostAgntBox">
+                                        <div class="famousBoxImg">
+                                            <img src="assets/images/famous3.png" alt="">
+                                        </div>
+                                        <div class="Elite-member-details famous-member-details">
+                                            <div class="member-details-header">
+                                                <h6>Ahmad Ahmad</h6>
+                                                <a href="javaScript:;" class="HeartElite"> <i
+                                                        class="fa-regular fa-heart"></i></a>
+                                            </div>
+                                            <div class="Elite-memb-rating-exp">
+                                                <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p> <span
+                                                    class="rev-num">(20
+                                                    Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                            </div>
+                                            <div class="memLoC">
+                                                <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
+                                                    Dhabi...</span>
+                                            </div>
+                                        </div>
+                                        <div class="famous-box-footer">
+                                            <ul class="member-social">
+                                                <li class="whatsLink">
+                                                    <a href="javaScript:"><i class="fa-brands fa-whatsapp"></i></a>
+                                                </li>
+                                                <li class="linkedLink">
+                                                    <a href="javaScript:;"><i class="fa-brands fa-linkedin-in"></i>
+
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javaScript:;">+2</a>
+                                                </li>
+                                            </ul>
+                                            <a href="javaScript:;" class="ReadMoreLink">Read More <i
+                                                    class="lni lni-chevron-right"></i></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="MostAgntBox">
+                                        <div class="famousBoxImg">
+                                            <img src="assets/images/famous4.png" alt="">
+                                        </div>
+                                        <div class="Elite-member-details famous-member-details">
+                                            <div class="member-details-header">
+                                                <h6>Ahmad Ahmad</h6>
+                                                <a href="javaScript:;" class="HeartElite"> <i
+                                                        class="fa-regular fa-heart"></i></a>
+                                            </div>
+                                            <div class="Elite-memb-rating-exp">
+                                                <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p> <span
+                                                    class="rev-num">(20
+                                                    Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                            </div>
+                                            <div class="memLoC">
+                                                <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
+                                                    Dhabi...</span>
+                                            </div>
+                                        </div>
+                                        <div class="famous-box-footer">
+                                            <ul class="member-social">
+                                                <li class="whatsLink">
+                                                    <a href="javaScript:"><i class="fa-brands fa-whatsapp"></i></a>
+                                                </li>
+                                                <li class="linkedLink">
+                                                    <a href="javaScript:;"><i class="fa-brands fa-linkedin-in"></i>
+
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javaScript:;">+2</a>
+                                                </li>
+                                            </ul>
+                                            <a href="javaScript:;" class="ReadMoreLink">Read More <i
+                                                    class="lni lni-chevron-right"></i></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <nav aria-label="Page navigation">
+                                        <ul class="pagination">
+                                            <li class="page-item "><a class="page-link" href="#"><i
+                                                        class="fa-solid fa-chevron-left"></i>
+                                                    Prev</a></li>
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">Next <i
+                                                        class="fa-solid fa-chevron-right"></i></a></li>
+                                        </ul>
+                                    </nav>
 
                                 </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="MostAgntBox">
-                                    <div class="famousBoxImg">
-                                        <img src="assets/images/famous2.png" alt="">
-                                    </div>
-                                    <div class="Elite-member-details famous-member-details">
-                                        <div class="member-details-header">
-                                            <h6>Ahmad Ahmad</h6>
-                                            <a href="javaScript:;" class="HeartElite"> <i
-                                                    class="fa-regular fa-heart"></i></a>
-                                        </div>
-                                        <div class="Elite-memb-rating-exp">
-                                            <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p> <span
-                                                class="rev-num">(20
-                                                Reviews)</span> <span class="exp-text">Experiance :8</span>
-                                        </div>
-                                        <div class="memLoC">
-                                            <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
-                                                Dhabi...</span>
-                                        </div>
-                                    </div>
-                                    <div class="famous-box-footer">
-                                        <ul class="member-social">
-                                            <li class="whatsLink">
-                                                <a href="javaScript:"><i class="fa-brands fa-whatsapp"></i></a>
-                                            </li>
-                                            <li class="linkedLink">
-                                                <a href="javaScript:;"><i class="fa-brands fa-linkedin-in"></i>
-
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javaScript:;">+2</a>
-                                            </li>
-                                        </ul>
-                                        <a href="javaScript:;" class="ReadMoreLink">Read More <i
-                                                class="lni lni-chevron-right"></i></a>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="MostAgntBox">
-                                    <div class="famousBoxImg">
-                                        <img src="assets/images/famous3.png" alt="">
-                                    </div>
-                                    <div class="Elite-member-details famous-member-details">
-                                        <div class="member-details-header">
-                                            <h6>Ahmad Ahmad</h6>
-                                            <a href="javaScript:;" class="HeartElite"> <i
-                                                    class="fa-regular fa-heart"></i></a>
-                                        </div>
-                                        <div class="Elite-memb-rating-exp">
-                                            <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p> <span
-                                                class="rev-num">(20
-                                                Reviews)</span> <span class="exp-text">Experiance :8</span>
-                                        </div>
-                                        <div class="memLoC">
-                                            <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
-                                                Dhabi...</span>
-                                        </div>
-                                    </div>
-                                    <div class="famous-box-footer">
-                                        <ul class="member-social">
-                                            <li class="whatsLink">
-                                                <a href="javaScript:"><i class="fa-brands fa-whatsapp"></i></a>
-                                            </li>
-                                            <li class="linkedLink">
-                                                <a href="javaScript:;"><i class="fa-brands fa-linkedin-in"></i>
-
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javaScript:;">+2</a>
-                                            </li>
-                                        </ul>
-                                        <a href="javaScript:;" class="ReadMoreLink">Read More <i
-                                                class="lni lni-chevron-right"></i></a>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="MostAgntBox">
-                                    <div class="famousBoxImg">
-                                        <img src="assets/images/famous4.png" alt="">
-                                    </div>
-                                    <div class="Elite-member-details famous-member-details">
-                                        <div class="member-details-header">
-                                            <h6>Ahmad Ahmad</h6>
-                                            <a href="javaScript:;" class="HeartElite"> <i
-                                                    class="fa-regular fa-heart"></i></a>
-                                        </div>
-                                        <div class="Elite-memb-rating-exp">
-                                            <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p> <span
-                                                class="rev-num">(20
-                                                Reviews)</span> <span class="exp-text">Experiance :8</span>
-                                        </div>
-                                        <div class="memLoC">
-                                            <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
-                                                Dhabi...</span>
-                                        </div>
-                                    </div>
-                                    <div class="famous-box-footer">
-                                        <ul class="member-social">
-                                            <li class="whatsLink">
-                                                <a href="javaScript:"><i class="fa-brands fa-whatsapp"></i></a>
-                                            </li>
-                                            <li class="linkedLink">
-                                                <a href="javaScript:;"><i class="fa-brands fa-linkedin-in"></i>
-
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javaScript:;">+2</a>
-                                            </li>
-                                        </ul>
-                                        <a href="javaScript:;" class="ReadMoreLink">Read More <i
-                                                class="lni lni-chevron-right"></i></a>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <nav aria-label="Page navigation">
-                                    <ul class="pagination">
-                                        <li class="page-item "><a class="page-link" href="#"><i
-                                                    class="fa-solid fa-chevron-left"></i>
-                                                Prev</a></li>
-                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">Next <i
-                                                    class="fa-solid fa-chevron-right"></i></a></li>
-                                    </ul>
-                                </nav>
-
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="Map" role="tabpanel" aria-labelledby="Map-tab">...
-                    </div>
+                        <div class="tab-pane fade" id="Map" role="tabpanel" aria-labelledby="Map-tab">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="googlemap">
+                                        <object style="border:0; height: 1000px; width: 100%;"
+                                            data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.943594576835!2d-106.43242624069771!3d31.677719472407432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d90e99d597b%3A0x6cd3eb9a9fcd23f1!2sCourtyard+by+Marriott+Ciudad+Juarez!5e0!3m2!1sen!2sbd!4v1533791187584">
+                                        </object>
 
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="agent-list-filter">
+                                        <span>240 Results </span>
+                                        <form action="" class="agent-list-filter-form">
+                                            <span>Sort By</span>
+                                            <select name="" id="" class="select">
+                                                <option value="">latest activity</option>
+                                                <option value="">Newest activity</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                    <div class="agent-list">
+                                        <div class="MostAgntBox">
+                                            <div class="famousBoxImg">
+                                                <img src="assets/images/famous4.png" alt="">
+                                            </div>
+                                            <div class="agent-maps-agent-details">
+                                                <div class="Elite-member-details famous-member-details">
+                                                    <div class="member-details-header">
+                                                        <h6>Ahmad Ahmad</h6>
+                                                        <a href="javaScript:;" class="HeartElite"> <i
+                                                                class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="Elite-memb-rating-exp">
+                                                        <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p>
+                                                        <span class="rev-num">(20
+                                                            Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                                    </div>
+                                                    <div class="memLoC">
+                                                        <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
+                                                            Dhabi...</span>
+                                                    </div>
+                                                </div>
+                                                <div class="famous-box-footer">
+                                                    <ul class="member-social">
+                                                        <li class="whatsLink">
+                                                            <a href="javaScript:"><i
+                                                                    class="fa-brands fa-whatsapp"></i></a>
+                                                        </li>
+                                                        <li class="linkedLink">
+                                                            <a href="javaScript:;"><i
+                                                                    class="fa-brands fa-linkedin-in"></i>
+
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javaScript:;">+2</a>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="javaScript:;" class="ReadMoreLink">Read More <i
+                                                            class="lni lni-chevron-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MostAgntBox">
+                                            <div class="famousBoxImg">
+                                                <img src="assets/images/famous4.png" alt="">
+                                            </div>
+                                            <div class="agent-maps-agent-details">
+                                                <div class="Elite-member-details famous-member-details">
+                                                    <div class="member-details-header">
+                                                        <h6>Ahmad Ahmad</h6>
+                                                        <a href="javaScript:;" class="HeartElite"> <i
+                                                                class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="Elite-memb-rating-exp">
+                                                        <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p>
+                                                        <span class="rev-num">(20
+                                                            Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                                    </div>
+                                                    <div class="memLoC">
+                                                        <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
+                                                            Dhabi...</span>
+                                                    </div>
+                                                </div>
+                                                <div class="famous-box-footer">
+                                                    <ul class="member-social">
+                                                        <li class="whatsLink">
+                                                            <a href="javaScript:"><i
+                                                                    class="fa-brands fa-whatsapp"></i></a>
+                                                        </li>
+                                                        <li class="linkedLink">
+                                                            <a href="javaScript:;"><i
+                                                                    class="fa-brands fa-linkedin-in"></i>
+
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javaScript:;">+2</a>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="javaScript:;" class="ReadMoreLink">Read More <i
+                                                            class="lni lni-chevron-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MostAgntBox">
+                                            <div class="famousBoxImg">
+                                                <img src="assets/images/famous4.png" alt="">
+                                            </div>
+                                            <div class="agent-maps-agent-details">
+                                                <div class="Elite-member-details famous-member-details">
+                                                    <div class="member-details-header">
+                                                        <h6>Ahmad Ahmad</h6>
+                                                        <a href="javaScript:;" class="HeartElite"> <i
+                                                                class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="Elite-memb-rating-exp">
+                                                        <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p>
+                                                        <span class="rev-num">(20
+                                                            Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                                    </div>
+                                                    <div class="memLoC">
+                                                        <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
+                                                            Dhabi...</span>
+                                                    </div>
+                                                </div>
+                                                <div class="famous-box-footer">
+                                                    <ul class="member-social">
+                                                        <li class="whatsLink">
+                                                            <a href="javaScript:"><i
+                                                                    class="fa-brands fa-whatsapp"></i></a>
+                                                        </li>
+                                                        <li class="linkedLink">
+                                                            <a href="javaScript:;"><i
+                                                                    class="fa-brands fa-linkedin-in"></i>
+
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javaScript:;">+2</a>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="javaScript:;" class="ReadMoreLink">Read More <i
+                                                            class="lni lni-chevron-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MostAgntBox">
+                                            <div class="famousBoxImg">
+                                                <img src="assets/images/famous4.png" alt="">
+                                            </div>
+                                            <div class="agent-maps-agent-details">
+                                                <div class="Elite-member-details famous-member-details">
+                                                    <div class="member-details-header">
+                                                        <h6>Ahmad Ahmad</h6>
+                                                        <a href="javaScript:;" class="HeartElite"> <i
+                                                                class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="Elite-memb-rating-exp">
+                                                        <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p>
+                                                        <span class="rev-num">(20
+                                                            Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                                    </div>
+                                                    <div class="memLoC">
+                                                        <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
+                                                            Dhabi...</span>
+                                                    </div>
+                                                </div>
+                                                <div class="famous-box-footer">
+                                                    <ul class="member-social">
+                                                        <li class="whatsLink">
+                                                            <a href="javaScript:"><i
+                                                                    class="fa-brands fa-whatsapp"></i></a>
+                                                        </li>
+                                                        <li class="linkedLink">
+                                                            <a href="javaScript:;"><i
+                                                                    class="fa-brands fa-linkedin-in"></i>
+
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javaScript:;">+2</a>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="javaScript:;" class="ReadMoreLink">Read More <i
+                                                            class="lni lni-chevron-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MostAgntBox">
+                                            <div class="famousBoxImg">
+                                                <img src="assets/images/famous4.png" alt="">
+                                            </div>
+                                            <div class="agent-maps-agent-details">
+                                                <div class="Elite-member-details famous-member-details">
+                                                    <div class="member-details-header">
+                                                        <h6>Ahmad Ahmad</h6>
+                                                        <a href="javaScript:;" class="HeartElite"> <i
+                                                                class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="Elite-memb-rating-exp">
+                                                        <p class="reviewText"><i class="fa-solid fa-star"></i>4.9</p>
+                                                        <span class="rev-num">(20
+                                                            Reviews)</span> <span class="exp-text">Experiance :8</span>
+                                                    </div>
+                                                    <div class="memLoC">
+                                                        <i class="fa-solid fa-location-dot"></i> <span>Emirates, Abu
+                                                            Dhabi...</span>
+                                                    </div>
+                                                </div>
+                                                <div class="famous-box-footer">
+                                                    <ul class="member-social">
+                                                        <li class="whatsLink">
+                                                            <a href="javaScript:"><i
+                                                                    class="fa-brands fa-whatsapp"></i></a>
+                                                        </li>
+                                                        <li class="linkedLink">
+                                                            <a href="javaScript:;"><i
+                                                                    class="fa-brands fa-linkedin-in"></i>
+
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javaScript:;">+2</a>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="javaScript:;" class="ReadMoreLink">Read More <i
+                                                            class="lni lni-chevron-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+
 
             </div>
 
