@@ -2118,22 +2118,95 @@ button:focus {
     transform: translateY(-50%);
     cursor: pointer;
 }
-.changepassInstruct span{
+
+.changepassInstruct span {
     font-size: 1.125em;
     margin-bottom: 10px;
     display: block;
 }
-.changepassInstruct h6{
+
+.changepassInstruct h6 {
     font-size: 1.125em;
     font-weight: 600;
     margin-bottom: 14px;
 }
-.changepassInstruct li{
+
+.changepassInstruct li {
     list-style: decimal;
     font-size: 1.125em;
 
 }
-.changepassInstruct ul{
+
+.changepassInstruct ul {
     padding-left: 20px;
     margin-bottom: 20px;
+}
+
+.app-req-box {
+    width: 100%;
+    padding: 10px 18px;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: all .5s;
+    display: flex;
+
+}
+
+.app-req-box:hover {
+    border: 1px solid #244094;
+    transition: all .5s;
+    box-shadow: 0 3px 6px rgba(174, 217, 250, .16);
+}
+
+.app-req-Img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.app-req-details h4 {
+    margin-bottom: 30px;
+    color: #333333;
+    font-size: 1.125em;
+}
+
+.app-req-details {
+    align-self: center;
+}
+
+.app-req-details span {
+    font-size: 1.125em;
+}
+
+.app-req-details span:last-child {
+    margin-left: 10px;
+}
+
+.app-req-status {
+    display: flex;
+    margin-left: auto;
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    border-radius: 35px;
+    font-size: 1.125em;
+    font-weight: 600;
+    align-self: center;
+
+}
+
+.app-req-status span {
+    align-self: center;
+}
+
+.Accepted {
+    background-color: rgba(167, 201, 87, .14);
+    color: #A7C957;
+}
+.cancelled {
+    color:rgba(218, 30, 55, 1);
+    background-color: rgba(218, 30, 55,.14); 
 }
