@@ -2182,6 +2182,7 @@ button:focus {
     margin-bottom: 30px;
     color: #333333;
     font-size: 1.125em;
+    font-weight: bold;
 }
 
 .app-req-details {
@@ -2392,4 +2393,105 @@ button:focus {
     color: #0E0E0E;
     margin-bottom: 20px;
     border-radius: 22px;
+}
+.save-share{
+    margin-left:auto
+}
+.save-share  a{
+    color:#0E0E0E;
+    font-size: 1.125em;
+    margin-left:15px
+}
+.save-share  a i{
+    margin-right: 5px;
+    color:#707070;
+    font-size: .875em;
+}
+.save-share  a:hover{
+    color:#244094
+}
+.agent-profile-up-box{
+    background-color: #F8F8FA;
+    padding:50px
+}
+.agent-profile-up-box .app-req-Img {
+    width: 170px;
+    height: 170px;
+    align-self:center;
+}
+.agent-profile-up-box .app-req-Img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.agent-profile-header-details{
+    width: 55%;
+}
+.agent-profile-header-details h4{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.agent-profile-header-details .reviewText{
+    font-size: 1.125em;
+}
+.agent-profile-header-details .reviewText span{
+    font-size: 1em;
+    font-weight: 300;
+}
+.agent-profile-header-details  .exp-text{
+    display: flex;
+    align-self: center;
+}
+.agent-profile-header-details  .exp-text i,.agent-profile-header-details  .exp-text span{
+    align-self: center;
+}
+.agent-profile-header-details  .exp-text i {
+    color: #244094;
+    margin-right: 10px;
+}
+.agent-profile-header-details .memLoC{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #CECECE;
+}
+.agent-profile-header-details .memLoC i{
+    font-size: 18px;
+}
+.agent-profile-exp{
+    padding-top:25px
+}
+.agent-profile-exp span{
+    font-size: 1.125em;
+    margin-right: 10px;
+}
+.agent-profile-exp span span{
+    color:#8C8C8C;
+    font-size: 1em;
+}
+.agent-profile-header-btn .btn{
+    width: 200px;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 35px;
+    height: 50px;
+    
+}
+.agent-profile-header-btn .btn.more-btn{
+    margin-bottom: 10px;
+}
+.agent-profile-header-btn {
+    align-self: center;
+    margin-left:auto
+}
+.add-review-btn{
+    background-color: #F8F8FA;
+    border:1px solid #BFBFBF;
+    color: black;
+}
+.add-review-btn:hover{
+    background-color:#BFBFBF ;
+}
+.about-desc h5{
+    font-size: 1.5em;
+    font-weight: bold;
 }
