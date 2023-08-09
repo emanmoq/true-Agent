@@ -134,6 +134,9 @@ jQuery(function ($) {
   });
   // back to top btn end
 
-
+  $(".faqHeader").click(function(){
+    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+  
+  })
 });
 
