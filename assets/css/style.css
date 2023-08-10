@@ -693,9 +693,9 @@ li {
 
 .partnerItem {
     transition: all .2s;
-    width: 200px;
+    width: 177px;
     overflow: hidden;
-    height: 100px;
+    height: 86px;
     display: block;
 }
 
@@ -1492,7 +1492,12 @@ button:focus {
 
 .nav-tabs .nav-link {
     font-size: 1.125em;
-    color: black
+    color: black;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 0;
 }
 
 .nav-tabs .nav-link.active {
@@ -1851,7 +1856,7 @@ button:focus {
     position: relative;
 }
 
-.googlemap {
+#Map .googlemap {
     position: absolute;
     width: 119%;
     left: -27%;
@@ -2372,126 +2377,307 @@ button:focus {
 }
 
 .faqContent {
-    padding-top:15px;
+    padding-top: 15px;
     font-size: 1.125em
 }
 
 .faqBox {
-    padding:15px 0;
+    padding: 15px 0;
     border-bottom: 1px solid #DDDDDD;
 }
-.reason-sec h4{
-    color:#DA1E37;
-    font-size:1.25em;
+
+.reason-sec h4 {
+    color: #DA1E37;
+    font-size: 1.25em;
     font-weight: bold;
-    margin:25px 0
+    margin: 25px 0
 }
-.reaseonBox{
-    border:1px solid #DFDFDF;
-    padding:25px;
+
+.reaseonBox {
+    border: 1px solid #DFDFDF;
+    padding: 25px;
     font-size: 1.125em;
     color: #0E0E0E;
     margin-bottom: 20px;
     border-radius: 22px;
 }
-.save-share{
-    margin-left:auto
+
+.save-share {
+    margin-left: auto
 }
-.save-share  a{
-    color:#0E0E0E;
+
+.save-share a {
+    color: #0E0E0E;
     font-size: 1.125em;
-    margin-left:15px
+    margin-left: 15px
 }
-.save-share  a i{
+
+.save-share a i {
     margin-right: 5px;
-    color:#707070;
+    color: #707070;
     font-size: .875em;
 }
-.save-share  a:hover{
-    color:#244094
+
+.save-share a:hover {
+    color: #244094
 }
-.agent-profile-up-box{
+
+.agent-profile-up-box {
     background-color: #F8F8FA;
-    padding:50px
+    padding: 50px
 }
+
 .agent-profile-up-box .app-req-Img {
     width: 170px;
     height: 170px;
-    align-self:center;
+    align-self: center;
 }
-.agent-profile-up-box .app-req-Img img{
+
+.agent-profile-up-box .app-req-Img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.agent-profile-header-details{
+
+.agent-profile-header-details {
     width: 55%;
 }
-.agent-profile-header-details h4{
+
+.agent-profile-header-details h4 {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.agent-profile-header-details .reviewText{
+
+.agent-profile-header-details .reviewText {
     font-size: 1.125em;
 }
-.agent-profile-header-details .reviewText span{
+
+.agent-profile-header-details .reviewText span {
     font-size: 1em;
     font-weight: 300;
 }
-.agent-profile-header-details  .exp-text{
+
+.agent-profile-header-details .exp-text {
     display: flex;
     align-self: center;
 }
-.agent-profile-header-details  .exp-text i,.agent-profile-header-details  .exp-text span{
+
+.agent-profile-header-details .exp-text i,
+.agent-profile-header-details .exp-text span {
     align-self: center;
 }
-.agent-profile-header-details  .exp-text i {
+
+.agent-profile-header-details .exp-text i {
     color: #244094;
     margin-right: 10px;
 }
-.agent-profile-header-details .memLoC{
+
+.agent-profile-header-details .memLoC {
     padding-bottom: 25px;
     border-bottom: 1px solid #CECECE;
 }
-.agent-profile-header-details .memLoC i{
+
+.agent-profile-header-details .memLoC i {
     font-size: 18px;
 }
-.agent-profile-exp{
-    padding-top:25px
+
+.agent-profile-exp {
+    padding-top: 25px
 }
-.agent-profile-exp span{
+
+.agent-profile-exp span {
     font-size: 1.125em;
     margin-right: 10px;
 }
-.agent-profile-exp span span{
-    color:#8C8C8C;
+
+.agent-profile-exp span span {
+    color: #8C8C8C;
     font-size: 1em;
 }
-.agent-profile-header-btn .btn{
+
+.agent-profile-header-btn .btn {
     width: 200px;
     font-size: 1em;
     font-weight: 500;
     border-radius: 35px;
     height: 50px;
-    
+
 }
-.agent-profile-header-btn .btn.more-btn{
+
+.agent-profile-header-btn .btn.more-btn {
     margin-bottom: 10px;
 }
+
 .agent-profile-header-btn {
     align-self: center;
-    margin-left:auto
+    margin-left: auto
 }
-.add-review-btn{
+
+.add-review-btn {
     background-color: #F8F8FA;
-    border:1px solid #BFBFBF;
+    border: 1px solid #BFBFBF;
     color: black;
 }
-.add-review-btn:hover{
-    background-color:#BFBFBF ;
+
+.add-review-btn:hover {
+    background-color: #BFBFBF;
 }
-.about-desc h5{
+
+.about-desc h5 {
     font-size: 1.5em;
     font-weight: bold;
+    margin-bottom: 27px;
+}
+
+.about-desc h5 p {
+    font-size: 1.125em;
+    margin-bottom: 15px;
+}
+
+.agent-read-more {
+    font-size: 1.125em;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000000;
+
+}
+
+.agent-read-more:hover {
+    color: #244094;
+}
+
+.about-desc {
+    padding: 30px 10px;
+    border-bottom: 1px solid #CECECE;
+}
+
+.agent-tabs .nav-link.active {
+    color: #244094;
+    border-bottom: 1px solid #244094;
+}
+
+.spoken-lang {
+    display: flex;
+}
+
+.spoken-lang span {
+    width: 110px;
+    height: 45px;
+    border-radius: 26px;
+    background-color: #F9F9F9;
+    font-size: 1em;
+    justify-content: center;
+    color: #333333;
+    margin-right: 10px;
+    display: flex;
+}
+
+.spoken-lang span p {
+    align-self: center;
+
+}
+
+.about-desc h5 i {
+    color: #244094
+}
+
+.AvailablabilityAcc .faqBox {
+    border-bottom: 0;
+}
+
+.Availablability-times {
+}
+
+.Availablability-times span {
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid #DCDCDC;
+    font-size: 18px;
+    border-radius: 35px;
+    margin-right: 10px;
+    height: 50px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+.Availablability-times span p{
+    align-self: center;
+}
+.area-map{
+    border-bottom: 0;
+}
+.area-map .googlemap object {
+    border-radius: 0;
+}
+.agent-side-box {
+    border:1px solid #E2E2E2;
+    border-radius: 26px;
+    padding: 30px 20px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.agent-side-box  h6{
+    font-size:1.25em ;
+    margin-bottom: 20px;
+}
+.agent-side-box h4{
+    font-size: 1.125em;
+    margin-bottom: 10px;
+}
+.phone-link{
+    background-color: #244094;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-right: 12px;
+}
+.phone-link i{
+    font-size: 20px !important;
+    align-self: center;
+}
+.phone-details-sec{
+    display: flex;
+    margin-bottom: 20px;
+}
+.phone-details-sec p{
+    align-self: center;
+    font-size: 1.125em;
+
+}
+.agent-side-box .app-social li:first-child{
+margin-left: 0;
+}
+.side-box-footer{
+    font-size: 1.25em;
+    text-align: center;
+    margin-top: 30px;
+}
+.agency-side-box{
+    padding-top:20px
+}
+.side-agency-img{
+width: 75px;
+height: 75px;
+border-radius: 50%;
+overflow: hidden;
+margin-right: 10px;
+}
+.side-agency-img img{
+    height: 100%;
+    object-fit: cover;
+}
+.side-agency-details{
+    display: flex;
+}
+.agency-side-desc h6{
+    font-size: 1.125em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.agency-side-desc{
+    align-self: center;
 }
