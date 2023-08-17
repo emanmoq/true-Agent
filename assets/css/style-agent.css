@@ -2061,8 +2061,7 @@ button:focus {
     position: relative;
 }
 
-.Edit-profile-Box .form-group label,
-.loginForm .form-group label {
+.Edit-profile-Box .form-group label {
     position: absolute;
     background-color: white;
     font-size: 1.125em;
@@ -2587,7 +2586,8 @@ button:focus {
     border-bottom: 0;
 }
 
-.Availablability-times {}
+.Availablability-times {
+}
 
 .Availablability-times span {
     display: inline-flex;
@@ -2600,38 +2600,31 @@ button:focus {
     padding: 0 15px;
     margin-bottom: 10px;
 }
-
-.Availablability-times span p {
+.Availablability-times span p{
     align-self: center;
 }
-
-.area-map {
+.area-map{
     border-bottom: 0;
 }
-
 .area-map .googlemap object {
     border-radius: 0;
 }
-
 .agent-side-box {
-    border: 1px solid #E2E2E2;
+    border:1px solid #E2E2E2;
     border-radius: 26px;
     padding: 30px 20px;
     padding-bottom: 15px;
     margin-bottom: 25px;
 }
-
-.agent-side-box h6 {
-    font-size: 1.25em;
+.agent-side-box  h6{
+    font-size:1.25em ;
     margin-bottom: 20px;
 }
-
-.agent-side-box h4 {
+.agent-side-box h4{
     font-size: 1.125em;
     margin-bottom: 10px;
 }
-
-.phone-link {
+.phone-link{
     background-color: #244094;
     color: white;
     font-size: 20px;
@@ -2642,519 +2635,49 @@ button:focus {
     justify-content: center;
     margin-right: 12px;
 }
-
-.phone-link i {
+.phone-link i{
     font-size: 20px !important;
     align-self: center;
 }
-
-.phone-details-sec {
+.phone-details-sec{
     display: flex;
     margin-bottom: 20px;
 }
-
-.phone-details-sec p {
+.phone-details-sec p{
     align-self: center;
     font-size: 1.125em;
 
 }
-
-.agent-side-box .app-social li:first-child {
-    margin-left: 0;
+.agent-side-box .app-social li:first-child{
+margin-left: 0;
 }
-
-.side-box-footer {
+.side-box-footer{
     font-size: 1.25em;
     text-align: center;
     margin-top: 30px;
 }
-
-.agency-side-box {
-    padding-top: 20px
+.agency-side-box{
+    padding-top:20px
 }
-
-.side-agency-img {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 10px;
+.side-agency-img{
+width: 75px;
+height: 75px;
+border-radius: 50%;
+overflow: hidden;
+margin-right: 10px;
 }
-
-.side-agency-img img {
+.side-agency-img img{
     height: 100%;
     object-fit: cover;
 }
-
-.side-agency-details {
+.side-agency-details{
     display: flex;
 }
-
-.agency-side-desc h6 {
+.agency-side-desc h6{
     font-size: 1.125em;
     font-weight: 500;
     margin-bottom: 10px;
 }
-
-.agency-side-desc {
+.agency-side-desc{
     align-self: center;
-}
-
-/**************************** Agent-profile ***********************/
-.loginPage {
-    height: 100vh;
-}
-
-.loginbg {
-    background-image: url(../images/login-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 49.5%;
-    display: flex;
-    justify-content: center;
-    padding: 30px 100px;
-    display: inline-block;
-    float: left;
-    margin: 0;
-}
-
-.login-bg-logo {
-    width: 350px;
-    margin: auto;
-    margin-bottom: 45px;
-}
-
-.login-bg-content {
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-
-.login-bg-Links {
-    margin-top: auto;
-    width: 100%;
-}
-
-.login-bg-Links a {
-    color: white;
-    font-size: 1.125em;
-}
-
-.login-bg-Links li {
-    display: inline-block;
-    margin-right: 30px;
-}
-
-.login-bg-Links li:last-child {
-    margin-right: 0;
-}
-
-.login-bg-text {
-    text-align: center;
-    color: white;
-}
-
-.login-bg-text h4 {
-    margin-bottom: 30px;
-    font-size: 1.25em;
-    font-weight: 500;
-}
-
-.login-bg-text h6 {
-    font-size: 1.125em;
-    font-weight: 400;
-}
-
-.login-content-sec {
-    width: 50%;
-    display: inline-block;
-    padding: 30px 100px;
-    float: left;
-    padding-bottom: 0;
-    height: 100%;
-    overflow: hidden;
-}
-
-.login-page-links a {
-    color: #000000;
-    font-size: 1.25em;
-    margin-left: 15px;
-}
-
-.login-page-links .active {
-    color: #244094;
-}
-
-.login-page-links {
-    float: right;
-    margin-left: auto;
-}
-
-.login-form-logo {
-    width: 70px;
-    margin: auto;
-}
-
-.loginForm {
-    margin-top: 18px;
-}
-
-.loginForm h6 {
-    text-align: center;
-    margin: 15px 0;
-    font-size: 1.25em;
-    font-weight: 600;
-}
-
-.loginForm .form-control {
-    width: 100%;
-    height: 50px;
-    border: 1px solid #D3D3D3;
-    border-radius: 36px;
-}
-
-.loginForm .form-group {
-    margin-bottom: 25px;
-    position: relative;
-}
-
-.loginPage-btn {
-    width: 100%;
-    height: 55px;
-    border-radius: 36px;
-    background-color: #244094;
-    color: white;
-    border: 1px solid #244094;
-    font-size: 1.125em;
-    font-weight: 500;
-}
-
-.loginPage-btn:hover {
-    background-color: transparent;
-    color: #244094;
-}
-
-.forgetPassLink {
-    font-size: 1.125em;
-    font-weight: bold;
-    color: #333333;
-    margin-top: 15px;
-    display: block;
-}
-
-.OrSign {
-    position: relative;
-    text-align: center;
-    margin: 15px 0;
-    font-size: 1.125em;
-    font-weight: bold;
-    color: #0E0E0E;
-}
-
-.OrSign:before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #BFBFBF;
-    left: 0;
-    top: 50%
-}
-
-.OrSign span {
-    position: relative;
-    padding: 5px 10px;
-    background-color: white;
-    display: inline-block;
-    z-index: 2;
-}
-
-.sign-in-option .btn {
-    width: 100%;
-    height: 55px;
-    margin-bottom: 10px;
-    border: 1px solid #C6C6C6;
-    border-radius: 36px;
-    margin-bottom: 15px;
-    font-size: 1.125em;
-    font-weight: 500;
-    justify-content: space-around;
-    padding: 0 10px
-}
-
-.sign-in-option .btn i {
-    align-self: center;
-    font-size: 25px;
-}
-
-.login-bottom-text {
-    text-align: center;
-    font-size: 1.125em;
-    margin-top: auto;
-}
-
-.login-bottom-text a {
-    display: inline-block;
-    color: #244094;
-    font-weight: bold;
-}
-
-.sign-in-option .btn.sign-face-btn {
-    background-color: #1877F2;
-    color: white;
-    border: 1px solid #1877F2
-}
-
-.sign-in-option .btn.sign-face-btn:hover {
-    background-color: transparent;
-    color: #1877F2
-}
-
-.sign-in-option .btn.sign-Apple-btn:hover {
-    background-color: #000000;
-    color: white;
-}
-
-.sign-in-option .btn.sign-Google-btn:hover {
-    background-color: #d95a4f;
-    color: white;
-}
-
-.login-back a {
-    font-size: 1.125em;
-    color: black
-}
-
-.login-back a:hover {
-    color: #0A66C2;
-}
-
-.forgetpass {
-    display: flex;
-    height: 100%;
-    position: relative;
-}
-
-.forgetpass-content {
-    align-self: center;
-    width: 100%;
-}
-
-.forgetpass-content h6 {
-    font-size: 1.25em;
-    font-weight: 700;
-    margin-bottom: 18px;
-    text-align: left;
-}
-
-.forgetpass-content p {
-    font-size: 1.125em;
-    margin-bottom: 34px;
-}
-
-.forgetpassTabs {
-    width: 100%;
-    background-color: #F3F5FA;
-    border-radius: 36px;
-    height: 60px;
-    overflow: hidden;
-    margin-bottom: 35px;
-    border: 0;
-    box-shadow: 0 0 32px rgba(160, 174, 192, .16);
-}
-
-.forgetpassTabs .nav-item {
-    width: 50%;
-    border: 0;
-    height: 100%;
-    text-align: center;
-
-
-}
-
-.forgetpassTabs .nav-link {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    text-align: center;
-    font-size: 1.125em;
-    color: #0E0E0E;
-    display: flex;
-    justify-content: center;
-
-}
-
-.forgetpassTabs .nav-link span {
-    align-self: center;
-}
-
-.forgetpassTabs .nav-link.active {
-    background-color: white;
-    border: 0;
-    box-shadow: 0 0 32px rgba(160, 174, 192, .16);
-    border-radius: 36px;
-    font-weight: 400;
-}
-
-.verification-pass {
-    display: flex;
-    margin: 30px 0;
-    justify-content: center;
-}
-
-.verification-pass input {
-    width: 15%;
-    margin-right: 15px;
-    height: 70px;
-    border: 1px solid #CECECE;
-    border-radius: 15px;
-    text-align: center;
-    font-size: 20px;
-    color: black;
-}
-
-.timer-cont {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.125em;
-    font-weight: 500;
-}
-
-#resend-pass {
-    text-decoration: underline;
-    font-weight: 500;
-    color: black;
-}
-
-#resend-pass:hover {
-    color: #0A66C2;
-}
-
-#var-text {
-    display: none;
-}
-
-
-.signupName-formgroup {
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-}
-
-.signupName-formgroup .form-group {
-    width: 47%;
-}
-
-.phone-form-group select {
-    position: absolute;
-    border: 0;
-    height: 45%;
-    color: #969696;
-    margin: 0 10px;
-    top: 30%;
-    left: 10px;
-    border-right: 1px solid #969696;
-    padding-right: 10px;
-}
-
-
-
-select:focus {
-    box-shadow: none;
-    outline: 0;
-}
-
-.phone-form-group input {
-    padding-left: 100px
-}
-
-.loginForm .form-group.phone-form-group label {
-    top: -13px !important;
-    font-size: 14px !important;
-}
-
-.checkcontainer {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 40px;
-    cursor: pointer;
-    font-size: 1.125em;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* Hide the browser's default checkbox */
-.checkcontainer input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-/* Create a custom checkbox */
-.checkcontainer .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 24px;
-    width: 25px;
-    background-color: white;
-    border: 1px solid #244094;
-    border-radius: 7px;
-}
-
-/* When the checkbox is checked, add a blue background */
-.checkcontainer input:checked~.checkmark {
-    background-color: #244094;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkcontainer .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* Show the checkmark when checked */
-.checkcontainer input:checked~.checkmark:after {
-    display: block;
-}
-
-/* Style the checkmark/indicator */
-.checkcontainer .checkmark:after {
-    left: 9px;
-    top: 4px;
-    width: 5px;
-    height: 15px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.signup-form {
-    margin-top: 50px;
-    position: relative;
-
-}
-
-.signup-form p {
-    font-size: 1.25em;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-
-.login-content {
-    flex-direction: column;
-    width: 100%;
-    display: flex;
-    height: 100%;
 }
